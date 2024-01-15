@@ -9,7 +9,7 @@ class SweetPotato():
         #添加调料
         self.cook_Season = []
     
-    def cook(self, time):
+    def cook(self， time):
         """烤地瓜方法"""
         #1.计算地瓜整体烤过的时间
         self.cook_time += time
@@ -27,7 +27,7 @@ class SweetPotato():
             #烤糊了
             self.cook_state = "烤糊了"
             
-    def add_Season(self,season):
+    def add_Season(self，season):
     	if season != '':
         	self.cook_Season.append(season)  
     def __str__(self):

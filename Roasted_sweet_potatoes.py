@@ -29,7 +29,7 @@ class SweetPotato():
             
     def add_Season(self，season):
     	if season != '':
-        	self.cook_Season.append(season)  
+        	self.cook_Season。append(season)  
     def __str__(self):
         return f'烤制时间:{self.cook_time},\n烤制状态:{self.cook_state},\n添加的调料{self.cook_Season}。'
         
